@@ -60,7 +60,34 @@ Pegamos esa direccion en Putty
  ![imagen](https://github.com/user-attachments/assets/13b4dd1e-ba3e-466d-bdad-9cf4236c6b8c)
 
 Agregamos la clave PPK
+
  ![imagen](https://github.com/user-attachments/assets/fd8d612a-ce71-41bc-bdcb-7e3ec82ad3ff)
+
+ y nos logueamos como root.
+
+
+ # 4. Instalación Wordpress
+
+Dentro de la instancia, usaremos los comandos:
+
+```
+sudo apt update
+sudo apt install apache2
+```
+
+![imagen](https://github.com/user-attachments/assets/d7a9d170-f196-4117-9bf2-9228dbe91fba)
+
+
+sudo systemctl start apache2
+sudo systemctl enable apache2
+sudo apt install php7.4 libapache2-mod-php7.4 php7.4-cli php7.4-mysql
+sudo systemctl restart apache2
+```
+
+Para instalar PHP y Apache 
+
+
+![imagen](https://github.com/user-attachments/assets/c22de3d7-5606-4daa-9a4c-f347cd45f4c0)
 
 
 
