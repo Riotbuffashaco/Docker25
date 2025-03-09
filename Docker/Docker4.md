@@ -31,7 +31,8 @@ docker run -d --name contenedor_volumen -v volumendocker:/data alpine sleep 3600
 
 # Ejemplo 3: Conectar dos contenedores a la red predeterminada bridge
 
-Primero, creamos un contenedor llamado contenedor1 usando la imagen nginx y lo conectamos a la red bridge
+Primero, creamos un contenedor llamado contenedor1 usando la imagen nginx y lo conectamos a la red bridge.
+
 Creamos otro contenedor llamado contenedor2 usando la imagen alpine y lo conectamos a la misma red bridge.
 
 ```
