@@ -16,6 +16,27 @@ https://www.tecmint.com/install-docker-and-run-docker-containers-in-ubuntu/
 
 ## Docker. Práctica 2
 
+### Lee los siguientes artículos
+https://docs.docker.com/get-started/
+https://docs.docker.com/get-started/part2/
+
+### Lleva a cabo la práctica descrita en el primer artículo
+
+1. Ejecuta la imagen "hello-world"
+2. Muestra las imágenes Docker instaladas
+3. Muestra los contenedores Docker
+
+### Lleva a cabo la práctica descrita en el segundo artículo
+1. Edita el fichero Dockerfile
+2. Construye el contenedor
+3. Ejecútalo
+4. Create una cuenta en hub.docker.com
+5. Publícalo
+
+### Nota: Para publicar una imagen debes conectar previamente con dockerhub, tal como se muestra en el siguiente artículo:
+https://www.thegeekdiary.com/how-to-build-and-push-docker-image-to-the-docker-hub-repository/
+
+
 ## Docker. Práctica 3
 
 ## Docker. Práctica 4
