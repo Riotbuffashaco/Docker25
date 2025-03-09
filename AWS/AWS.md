@@ -77,7 +77,7 @@ sudo apt install apache2
 
 ![imagen](https://github.com/user-attachments/assets/d7a9d170-f196-4117-9bf2-9228dbe91fba)
 
-
+```
 sudo systemctl start apache2
 sudo systemctl enable apache2
 sudo apt install php7.4 libapache2-mod-php7.4 php7.4-cli php7.4-mysql
