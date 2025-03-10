@@ -67,7 +67,7 @@ Agregamos la clave PPK
 
 ![imagen](https://github.com/user-attachments/assets/c22de3d7-5606-4daa-9a4c-f347cd45f4c0)
 
- # 4. Instalación Wordpress
+ # 4. Wordpress
 
 Dentro de la instancia, usaremos los comandos:
 
