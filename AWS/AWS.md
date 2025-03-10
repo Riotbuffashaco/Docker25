@@ -51,11 +51,11 @@ En EFS, creamos un nuevo sistema de archivos. Es importante conectarlo a la vpc
 
 ![imagen](https://github.com/user-attachments/assets/b7f08405-f295-44f6-9587-f0aab5c86e9c)
 
-## Paso 2: Conectar con putty
+## Paso 2: Conectar con Putty
 
 ![imagen](https://github.com/user-attachments/assets/f18480e6-a2ab-4d05-8572-5938c7fe4ab8)
 
-Pegamos esa direccion en Putty
+Pegamos esa dirección en Putty
 
  ![imagen](https://github.com/user-attachments/assets/13b4dd1e-ba3e-466d-bdad-9cf4236c6b8c)
 
@@ -65,6 +65,7 @@ Agregamos la clave PPK
 
  y nos logueamos como root.
 
+![imagen](https://github.com/user-attachments/assets/c22de3d7-5606-4daa-9a4c-f347cd45f4c0)
 
  # 4. Instalación Wordpress
 
@@ -77,6 +78,8 @@ sudo apt install apache2
 
 ![imagen](https://github.com/user-attachments/assets/d7a9d170-f196-4117-9bf2-9228dbe91fba)
 
+Para instalar PHP y Apache 
+
 ```
 sudo systemctl start apache2
 sudo systemctl enable apache2
@@ -84,10 +87,34 @@ sudo apt install php7.4 libapache2-mod-php7.4 php7.4-cli php7.4-mysql
 sudo systemctl restart apache2
 ```
 
-Para instalar PHP y Apache 
+
+Instalación de worpress.
 
 
-![imagen](https://github.com/user-attachments/assets/c22de3d7-5606-4daa-9a4c-f347cd45f4c0)
+![imagen](https://github.com/user-attachments/assets/41bee531-bb25-4377-ab50-d09fc9c5dd48)
+
+![imagen](https://github.com/user-attachments/assets/a70118cd-f23e-4b48-b83c-44658bb121f0)
+
+![imagen](https://github.com/user-attachments/assets/042ab24f-3c8a-426e-9b66-42a52eb36db5)
+
+Creamos la base de datos para wordpress:
+
+```
+CREATE DATABASE wordpress; 
+CREATE USER 'wordpress_user'@'%' IDENTIFIED BY 'password123'; 
+GRANT ALL PRIVILEGES ON wordpress.* TO 'wordpress_user'@'%'; 
+FLUSH PRIVILEGES;
+```
+
+Desde la web, podremos acceder a wordpress
+
+![imagen](https://github.com/user-attachments/assets/490f01bf-79e6-413e-81b1-9e68368746ef)
 
 
+
+![imagen](https://github.com/user-attachments/assets/db1d98e3-0815-4ef2-9d19-4286c57b246c)
+
+
+
+![imagen](https://github.com/user-attachments/assets/8285c3e5-af37-462a-94d0-5262dca24d15)
 
